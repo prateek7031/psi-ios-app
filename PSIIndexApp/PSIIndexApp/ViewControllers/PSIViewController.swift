@@ -22,6 +22,9 @@ class PSIViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "Refresh", style: .done, target: self, action: #selector(self.refreshAction(sender:)))
+        
+        
         // init map View
         initMainView()
         
@@ -38,25 +41,6 @@ class PSIViewController: UIViewController {
     
     func initVM() {
         
-        // Naive binding
-        self.viewModel.showAlertClosure = { [weak self] () in
-            DispatchQueue.main.async {
-                if let message = self?.viewModel.alertMessage {
-                //self?.showAlert( message )
-                }
-            }
-        }
-        
-        self.viewModel.updateLoadingStatus = { [weak self] () in
-            DispatchQueue.main.async {
-                if (self?.viewModel.isLoading)!{
-                  //  HUD.show(.progress)
-                }else{
-                    //HUD.hide()
-                }
-            }
-        }
-        
         self.viewModel.setDataOnMapClosure = { [weak self] () in
             DispatchQueue.main.async {
                 self?.initMarker()
@@ -65,6 +49,11 @@ class PSIViewController: UIViewController {
         
         self.viewModel.initData()
         
+    }
+    
+    @objc func refreshAction(sender: UIBarButtonItem) {
+        self.mapView.clear()
+        self.viewModel.refreshData()
     }
     
     func initMarker(){
