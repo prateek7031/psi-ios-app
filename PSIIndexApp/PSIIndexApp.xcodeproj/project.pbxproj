@@ -269,6 +269,7 @@
 				6E987B5A2388D8570002AA05 /* Sources */,
 				6E987B5B2388D8570002AA05 /* Frameworks */,
 				6E987B5C2388D8570002AA05 /* Resources */,
+				B19B30724D5C1A1872AD3422 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -506,6 +507,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PSIIndexApp-PSIIndexAppUITests/Pods-PSIIndexApp-PSIIndexAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B19B30724D5C1A1872AD3422 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PSIIndexAppTests/Pods-PSIIndexAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PSIIndexAppTests/Pods-PSIIndexAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PSIIndexAppTests/Pods-PSIIndexAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

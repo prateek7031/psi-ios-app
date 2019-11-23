@@ -5,24 +5,32 @@ PODS:
   - GoogleMaps/Base (3.6.0)
   - GoogleMaps/Maps (3.6.0):
     - GoogleMaps/Base
+  - Nimble (8.0.4)
+  - Quick (2.2.0)
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - Alamofire
   - GoogleMaps
+  - Nimble
+  - Quick
   - SwiftyJSON
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - GoogleMaps
+    - Nimble
+    - Quick
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   GoogleMaps: 82f8fe307193bb4de6ef6bf9e88f1d624b718f9d
+  Nimble: 18d5360282923225d62b09d781f63abc1a0111fc
+  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: dafa24e3aab0b35f5713f803f90f848d32fc743c
+PODFILE CHECKSUM: 3e31d16a03d59a92992ce20d8890e402c4a70376
 
 COCOAPODS: 1.8.4
