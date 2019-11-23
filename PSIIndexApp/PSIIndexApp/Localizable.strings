@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  PSIIndexApp
+
+  Created by Prateek on 23/11/19.
+  Copyright © 2019 Prateek. All rights reserved.
+*/
+
+/*
+"O3 Sub Index:" = "O3 Sub Index";
+"PM10 24 hourly:" = "PM10 24 hourly";
+"PM10 Sub Index:" = "PM10 Sub Index";
+"CO Sub Index:" = "CO Sub Index:"
+"PM25 24 Hourly:" = "PM25 24 Hourly:"
+"S02 Sub Index:" = "S02 Sub Index:";
+"CO 8 hr Max:" = "CO 8 hr Max:";
+"No2 1 hr Max:" = "No2 1 hr Max:";
+"S02 24 Hourly:" = "S02 24 Hourly:";
+"PM25 Sub Index:" = "PM25 Sub Index:";
+"24 Hour Hourly:" = "24 Hour Hourly:";
+"O3 Eight Hour Max:" = "O3 Eight Hour Max:";
+*/
