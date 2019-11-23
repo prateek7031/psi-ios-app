@@ -31,6 +31,7 @@ class APIServiceManager {
                 switch response.result {
                 case .success(let value):
                     let json = JSON(value)
+                    print("respJson is \(json)")
                     completion(Result.success(payload: PSI(json: json)))
                 case .failure(_):
                     if let statusCode = response.response?.statusCode,
